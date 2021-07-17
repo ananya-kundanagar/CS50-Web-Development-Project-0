@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Search</title>
+</head>
+<style>
+    <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                min-width: 400px;
+            }
+            body, input, button {
+                font-size: 14px;
+                font-family: arial,sans-serif;
+                color: #222;
+            }
+            body {
+                background: #fff;
+            }
+            body {
+                display: block;
+                margin: 8px;
+                 }
+            input{
+                border-radius: 5cm;     
+                
+            }
+            #bar{
+                width: 10cm;
+            }
+            #bar{
+                margin:0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%)
+            }
+            button{
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none
+                margin:0;
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%)
+            }
+
+</style>
+<body>
+<form action="http://images.google.com/images" method="GET">
+    <input id ="bar" type="text" name="q"/>
+    <button id ="searchbutton">Google Search</button>
+</form>
+</body>
+</html>
